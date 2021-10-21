@@ -30,7 +30,7 @@ namespace JiraWebhook
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
 
-            ProducerConfig producerConfig = new ProducerConfig { BootstrapServers = "localhost:9092" };
+            ProducerConfig producerConfig = new ProducerConfig { BootstrapServers = "127.0.0.1:9092" };
 
             IProducer<Null, Resource> kafkaProducer = new ProducerBuilder<Null, Resource>(producerConfig)
             .SetValueSerializer(new KafkaJsonSerializer<Resource>())
