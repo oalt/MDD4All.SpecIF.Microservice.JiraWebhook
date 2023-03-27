@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Confluent.Kafka;
 using MDD4All.Jira.DataModels;
-using MDD4All.SpecIF.DataAccess.Jira;
+using MDD4All.SpecIF.Converters.Jira;
 using MDD4All.SpecIF.DataModels;
 using MDD4All.SpecIF.DataModels.Helpers;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 

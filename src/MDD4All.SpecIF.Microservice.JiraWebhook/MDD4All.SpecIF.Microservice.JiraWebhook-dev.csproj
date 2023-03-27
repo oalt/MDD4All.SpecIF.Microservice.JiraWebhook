@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="$(SolutionDir)\MDD4All.Kafka.DataAccess\src\MDD4All.Kafka.DataAccess\MDD4All.Kafka.DataAccess-dev.csproj" />
-    <ProjectReference Include="$(SolutionDir)\MDD4All.SpecIF.DataAccess.Jira\src\MDD4All.SpecIF.DataAccess.Jira\MDD4All.SpecIF.DataAccess.Jira-dev.csproj" />
+    <ProjectReference Include="..\..\..\MDD4All.SpecIF.Converters.Jira\src\MDD4All.SpecIF.Converters.Jira\MDD4All.SpecIF.Converters.Jira-dev.csproj" />
   </ItemGroup>
 
 </Project>
